@@ -1,3 +1,3 @@
 1. Inside Bin Folder
-sudo chmod +x ./Jmeter.13/start.sh 
-sudo ./Jmeter.13/start.sh <<Private IP of Host VM>>
+sudo chmod +x ./IoTApplication/start.sh 
+sudo ./IoTApplication/start.sh <<Private IP of Host VM>>
