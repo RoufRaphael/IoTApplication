@@ -29,7 +29,7 @@ do
 for w in "${workload[@]}"
 do
 	echo "Processing $f file..."
-  	./jmeter.sh -n -t /home/ubuntu/jmeter/apache-jmeter-5.4.1/bin/IoTApplication/TestPlan-Mod.jmx -J TestIP=$1 -J NumThreads=$w -J delay=$delay -J NumLoops=$loop
+  	./jmeter.sh -n -t /home/ubuntu/jmeter/apache-jmeter-5.5/bin/IoTApplication/TestPlan-Mod.jmx -J TestIP=$1 -J NumThreads=$w -J delay=$delay -J NumLoops=$loop
 
  	 # Get its PID
    	 # PID=$!
